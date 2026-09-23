@@ -1,0 +1,24 @@
+# Copy this file to config/sources.yaml and fill in YOUR sources.
+# All values below are synthetic placeholders. Never commit real URLs or IDs.
+
+x:
+  # X (Twitter) API v2 list IDs you own/follow. Requires X_BEARER_TOKEN env.
+  lists:
+    - name: "semiconductor watch"
+      list_id: "YOUR_X_LIST_ID_1"
+    - name: "macro writers"
+      list_id: "YOUR_X_LIST_ID_2"
+  # Set to true to include your own X bookmarks (requires read scope).
+  bookmarks: false
+
+substack:
+  # Substack RSS feeds you follow.
+  feeds:
+    - "https://example-newsletter.substack.com/feed"
+    - "https://another-example.substack.com/feed"
+
+podcasts:
+  # Podcast RSS feeds you follow. Latest episode per feed is ingested.
+  feeds:
+    - "https://example.com/podcast-a/feed.xml"
+    - "https://example.com/podcast-b/feed.xml"

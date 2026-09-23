@@ -1,0 +1,7 @@
+.env
+config/sources.yaml
+config/voices.yaml
+output/
+__pycache__/
+*.pyc
+.venv/
